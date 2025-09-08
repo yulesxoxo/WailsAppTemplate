@@ -2,6 +2,25 @@
 
 Congratulations on generating your Wails3 application! This README will guide you through the next steps to get your project up and running.
 
+## Keyword replacement table (case-sensitive)
+| Placeholder               | Replace With                                    | Example Value               |
+|---------------------------|-------------------------------------------------|-----------------------------|
+| `com.wails.myfirstapp`    | Your app’s **module/package identifier**        | `com.yulesxoxo.autoclicker` |
+| `com.mycompany.myproduct` | The **unique product identifier**               | `com.yulesxoxo.autoclicker` |
+| `myfirstapp.exe`          | The **name of the generated binary/executable** | `AutoClicker.exe`           |
+| `myfirstapp`              | Project name (no whitespace)                    | `AutoClicker`               |
+| `My Product Name`         | Your **application/product name**               | `Auto Clicker`              |
+| `My Product`              | Your **application/product name**               | `Auto Clicker`              |
+| `My Company`              | Your **company/organization name**              | `yulesxoxo`                 |
+| `My Product Description`  | A **short description** of your application     | `It's an Auto Clicker`      |
+| `A program that does X`   | The **application description**                 | `It's an Auto Clicker`      |
+| `Some Product Comments`   | Comments                                        | `Lorem ipsum`               |
+| `This is a comment`       | Comments                                        | `Lorem ipsum`               |
+| `changeme`                | go module                                       | `autoclicker`               |
+| `© now`                   | Current year                                    | `© 2025`                    |
+| `(c) Now`                 | Current year                                    | `(c) 2025`                  |
+
+
 ## Getting Started
 
 1. Navigate to your project directory in the terminal.
