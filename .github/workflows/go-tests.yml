@@ -15,6 +15,7 @@ jobs:
     name: ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         os:
           - windows-latest
@@ -26,12 +27,6 @@ jobs:
 
       - name: Setup Go
         uses: ./.github/actions/setup-tools
-        with:
-          tool: go
-
-      - name: Install Go dependencies
-        run: |
-          go mod tidy
 
       - name: Ensure frontend/dist directory exists and is embeddable
         shell: bash
