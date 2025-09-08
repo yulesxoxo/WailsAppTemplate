@@ -10,4 +10,4 @@
 
 ## Contact
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/518169167048998913)](https://discord.com/users/518169167048998913)
+[![Discord: yules](https://lanyard.cnrad.dev/api/518169167048998913)](https://discord.com/users/518169167048998913)
